@@ -1,6 +1,6 @@
 // this is your main.js script
 let desafio = '30 días de JavaScript';
-
+let saluda = "hola"
 console.log(desafio);
 console.log(desafio.length);
 console.log(desafio.toUpperCase());
