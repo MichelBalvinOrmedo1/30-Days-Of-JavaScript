@@ -1,6 +1,10 @@
 // this is your main.js script
 let desafio = '30 días de JavaScript';
+<<<<<<< HEAD
 let saluda = "hola"
+=======
+
+>>>>>>> 70190cfe99308f832d2466caacc2dcd8b0cce65f
 console.log(desafio);
 console.log(desafio.length);
 console.log(desafio.toUpperCase());
@@ -18,7 +22,14 @@ console.log(desafio.indexOf('a'));
 console.log(desafio.lastIndexOf('a'));
 console.log( 'No puede terminar una oración con porque porque porque es una conjunción'.indexOf('porque'));
 console.log('No puede terminar una oración con porque porque porque es una conjunción'.lastIndexOf('porque'));
+<<<<<<< HEAD
 console.log('No puede terminar una oración con porque porque porque es una conjunción'.search('porque'))
 console.log(' 30 días de JavaScript '.trim())
 console.log(desafio.startsWith("30")); // sirve para que si la oracion comienza por algo
 console.log(desafio.endsWith("ipt")); // igual que el anterior pero la parte final
+=======
+console.log('No puede terminar una oración con porque porque porque es una conjunción'.search('porque'));
+console.log(' 30 días de JavaScript '.trim())
+console.log(desafio.startsWith("30")); // sirve para que si la oracion comienza por algo
+console.log(desafio.endsWith("ipt")); // igual que el anterior pero la parte final
+>>>>>>> 70190cfe99308f832d2466caacc2dcd8b0cce65f
