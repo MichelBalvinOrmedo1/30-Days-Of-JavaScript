@@ -26,3 +26,8 @@ console.log('No puede terminar una oración con porque porque porque es una conj
 console.log(' 30 días de JavaScript '.trim())
 console.log(desafio.startsWith("30")); // sirve para que si la oracion comienza por algo
 console.log(desafio.endsWith("ipt")); // igual que el anterior pero la parte final
+let patter = /a/gi;
+console.log(desafio.match(patter))
+let concatenar = ''
+console.log(concatenar.concat('30 dias de ', 'Javascript'))
+console.log(desafio.repeat(2))
