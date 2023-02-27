@@ -31,3 +31,17 @@ console.log(desafio.match(patter))
 let concatenar = ''
 console.log(concatenar.concat('30 dias de ', 'Javascript'))
 console.log(desafio.repeat(2))
+
+
+// EJERCICIO 2
+console.log('The quote There is no exercise better for the heart than reaching down and lifting people up. by John Holmes teach1es us to help one another.')
+console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.");
+
+console.log(typeof('10') == 10)
+
+console.log(parseFloat(9.8) == 10)
+console.log('Python'.includes('on') && 'jargon'.includes('on'));
+
+console.log(Math.floor(Math.random() * (100 - 0 + 1) + 0));
+console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50));
+console.log(Math.floor(Math.random() * (255 - 0 + 1) + 0))
