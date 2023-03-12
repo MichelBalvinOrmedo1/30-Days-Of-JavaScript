@@ -45,3 +45,27 @@ console.log('Python'.includes('on') && 'jargon'.includes('on'));
 console.log(Math.floor(Math.random() * (100 - 0 + 1) + 0));
 console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50));
 console.log(Math.floor(Math.random() * (255 - 0 + 1) + 0))
+let ejemm4 = "JavaScript";
+let random = Math.floor(Math.random() * (ejemm4.length - 0 +1) +0);
+console.log("----");
+console.log(ejemm4.charAt(random));
+
+console.log("1 1 1 1\n 2 1 2 4 8 \n3 1 3 9 27 \n4 1 4 16 64 \n5 1 5 25 125")
+
+let ejemm5 = 'You cannot end a sentence with because because because is a conjunction';
+let patron = /because/gi;
+console.log(ejemm5.match(patron).join(" "));
+
+// Nivel 3
+let ejemm6 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(ejemm6.match(/love/gi).length);
+
+let ejemm7 = 'You cannot end a sentence with because because because is a conjunction';
+console.log(ejemm7.match(/because/g).length)
+
+let ejemm8 ='%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+console.log(ejemm8.replace((/[^ \w]/g),''))
+
+let ejemm9 = 'Él gana 5000 euros de salario por mes, bono anual de 10000 euros, cursos en línea de 15000 euros por mes.'
+let valor =ejemm9.match(/\d+/g);
+console.log(((Number(valor[0])*12) + Number(valor[1]) + (Number(valor[2]*12))))
